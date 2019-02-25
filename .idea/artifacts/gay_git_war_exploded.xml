@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gay_git:war exploded">
+    <output-path>$PROJECT_DIR$/gay_git/target/gay_git</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gay_git" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/gay_git/target/gay_git/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="gay_git/web/Web" />
+    </root>
+  </artifact>
+</component>
